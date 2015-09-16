@@ -20,7 +20,7 @@ button{
 </head>
 <body>
 
-<h1>Stolen Items List & Contact Information</h1>
+<h1>User Profile </h1>
 
 <table style='width:100%;text-color:white;'>
   <tr>
@@ -39,17 +39,25 @@ button{
     <td style='width:20%;'>Address</td>
     <td style='width:25%;'>Contact Info</td>
     <td style='width:20%;'>Contact Information</td>
+    <td style='width:20%;text-align:center;'>Stolen</td>
   </tr>
   <tr>
     <td><input type="text" name="serial number" maxlength="16" size="16"></td>
     <td><input type="text" name="item" ></td>
     <td> <input type="file" name="pic" accept="image/*"></td>
-    <td><textarea type="text" name="description" rows="5" cols="50" maxlength="500" > </textarea></td>
-    <td><textarea type="text" name="contact information" rows="5" cols="50" maxlength="500"> </textarea></td>
+    <td><textarea type="text" name="description" rows="5" cols="30" maxlength="500" > </textarea></td>
+    <td style='text-align:center;'><input type="checkbox" name="stolen" ></td>
   </tr>
 </table>
 
-  <input type="submit">
+<table>
+  <tr>
+    <td>
+      <button type="submit" value="submit">Update</button>
+    </td>
+  </tr>
+</table>
+
 </form>
 </body>
 </html>
