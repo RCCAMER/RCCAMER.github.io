@@ -1,0 +1,3 @@
+[submodule "vapeknowledge"]
+	path = vapeknowledge
+	url = https://github.com/RCCAMER/vapeknowledge.git
