@@ -1,3 +1,6 @@
 [submodule "vapeknowledge"]
 	path = vapeknowledge
 	url = https://github.com/RCCAMER/vapeknowledge.git
+[submodule "cameronswelding"]
+	path = cameronswelding
+	url = https://github.com/rccamer/cameronswelding
